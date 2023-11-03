@@ -71,7 +71,17 @@ print("right" >= "left")    # True
 print("yellow" <= "fellow")     # False
 print("abc" > "")       # True
 
+# Example 9: Testing string  (True/False)
+print("Example 9:")
 
+s="Welcome to python"
+print(s.isalnum())      # False
+print("Welcome".isalpha())# True
+print("2012".isdigit()) #True
+print("first Number".isidentifier())    # False
+print(s.islower())  # False
+print("WELCOME".isupper())      # True
+print(" ".isspace())        # True
 
 
 
