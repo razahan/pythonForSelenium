@@ -83,7 +83,50 @@ print(s.islower())  # False
 print("WELCOME".isupper())      # True
 print(" ".isspace())        # True
 
+# Example 10: Searching for Substring
+print("Example 10:")
+s= "welcome to python"
+print(s.endswith("thon"))   # True
+print(s.startswith("good")) # False
+print(s.find("come"))   # 3
+print(s.find("become")) # -1    -Not found
+print(s.rfind("pyth"))      # 11
+print(s.count("t"))     # 2
 
+#Example 11: Converting string
+print("Example 11:")
+s = "String in PYTHON"
+s1 = s.capitalize()
+print(s1)       # String in python
+
+s2 = s.title()
+print(s2)       # String In Python
+
+s3 = s.lower()
+print(s3)       # string in python
+
+s4 = s.upper()
+print(s4)       # STRING IN PYTHON
+
+s5 = s.swapcase()
+print(s5)       # sTRING IN python
+
+s6 = s.replace("in", "on")
+print(s6)       # Strong on PYTHON
+
+# Example 12: How to reverse string
+print("Example 12:")
+# Method_1
+s= "welcome"
+rev_str = ""
+for i in s:
+    rev_str = i + rev_str
+print(rev_str)
+
+# Method_2:
+sa = "welcome"
+rev_str1=sa[::-1]       # S[0:7:-1]
+print(rev_str1)
 
 
 
