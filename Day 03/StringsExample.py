@@ -37,6 +37,44 @@ print(str[1:3])
 print(str[:6])
 print(str[2:])
 
-print(str[1:-1])
+print(str[1:-1])        # (-1) means remove last character
 
-# Example 5:
+# Example 5: ord() and chr() //ASCII number
+
+print(ord("A"))       # Find ASCii number
+
+print(chr(65))      # Ascii number to character
+
+# Example 6 : max() min()   len()
+
+print(max("abc"))
+print(min("abc"))
+print(len("welcome"))
+
+# Example 6: in, not in operator
+s="welcome"
+# in Operator
+print("come" in s)  # True
+print("lome" in s)  # False
+
+# not in operator
+print("come" not in s)  # False
+print("lome" not in s)  # True
+
+print("Example 08---------")
+# Example 8: String comparison
+print("tim" =="him")        # False
+print("tim" != "him")       # True
+print("tim" > "time")        # False
+print("tim" < "time")       # True
+print("right" >= "left")    # True
+print("yellow" <= "fellow")     # False
+print("abc" > "")       # True
+
+
+
+
+
+
+
+
