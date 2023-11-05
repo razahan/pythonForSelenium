@@ -93,7 +93,7 @@ print(s.find("become")) # -1    -Not found
 print(s.rfind("pyth"))      # 11
 print(s.count("t"))     # 2
 
-#Example 11: Converting string
+# Example 11: Converting string
 print("Example 11:")
 s = "String in PYTHON"
 s1 = s.capitalize()
